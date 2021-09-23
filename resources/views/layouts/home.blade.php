@@ -14,7 +14,7 @@
 
 <div style="background-color:coral;margin-top: 0px;height: 150px;" class="jumbotron text-center">
     <h2>Header</h2>
-    <p>Sayfa Üst Kısım</p>
+    <p>Sayfa Üst Kısım Bilgisi</p>
     @yield('header')
 </div>
 
