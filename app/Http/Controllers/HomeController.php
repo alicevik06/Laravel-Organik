@@ -14,6 +14,7 @@ class HomeController extends Controller
     public function test($id)
     {
         return view('home.test',['id'=>$id]);
-//        echo "Id number :",$id;
+
+        //        echo "Id number :",$id;
     }
 }
