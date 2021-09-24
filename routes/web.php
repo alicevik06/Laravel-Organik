@@ -34,3 +34,7 @@ Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
 
 
 Route::get('/test/{id}', [HomeController::class, 'test'])->where('id', '[0-9]+')->name('test');
+
+//-------------------------Admin Routes -------------------------------------------
+Route::get('/admin', [\App\Http\Controllers\Admin\HomeController::class, 'index'])->name('adminhome');
+
