@@ -30,5 +30,7 @@ Route::get('/', function () {
 Route::redirect('/anasayfa','/home')->name('anasayfa');
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/aboutus', [HomeController::class, 'aboutus'])->name('aboutus');
+
 
 Route::get('/test/{id}', [HomeController::class, 'test'])->where('id', '[0-9]+')->name('test');
